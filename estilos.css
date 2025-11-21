@@ -48,10 +48,8 @@ img {
   color: #000 !important; 
 }
 
-.header-zara .btn-info:hover,
-.header-zara .btn-info:focus {
+.header-zara .btn-info:hover{
   background-color: #bdeff3 !important;
-  border-color: #bdeff3 !important;
 }
 
 .modal-header.bg-info {
