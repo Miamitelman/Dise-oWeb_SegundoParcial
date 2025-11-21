@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=Playfair+Display:wght@400;600;700&display=swap');
+
+:root {
+  --negro: #000;
+  --gris-claro: #f3f3f3;
+  --celeste-claro: #cfeff6;
+
+  --bs-btn-info-bg: var(--celeste-claro);
+  --bs-btn-info-border-color: var(--celeste-claro);
+  --bs-body-bg: #ffffff;
+
+  --font-body: 'Inter', sans-serif;
+  --font-title: 'Playfair Display', serif;
+}
+
+body {
+  font-family: var(--font-body);
+  background-color: #ffffff;
+}
+
+
+h1, h2, h3 {
+  font-family: var(--font-title);
+}
+
+.brand-zara {
+  font-family: var(--font-title);
+  font-size: 2rem;
+  color: #000; 
+}
+
+.nav-link {
+  color: var(--negro) !important;
+  font-weight: 500;
+}
+
+img {
+  border-radius: 10px;
+}
+
+.header-zara {
+  background-color: var(--gris-claro) !important;
+}
+
+.header-zara .btn-info {
+  background-color: #cfeff6 !important; 
+  border-color: #cfeff6 !important;
+  color: #000 !important; 
+}
+
+.header-zara .btn-info:hover,
+.header-zara .btn-info:focus {
+  background-color: #bdeff3 !important;
+  border-color: #bdeff3 !important;
+}
+
+.modal-header.bg-info {
+  background-color: #cfeff6 !important;
+  color: #000 !important;
+}
+
+.modal-header.bg-info .modal-title {
+  color: #000 !important;
+}
+
+#hero-subtitle {
+  font-style: italic;
+  font-size: 1.125rem; 
+  color: #444;
+}
+
+h1 {
+  font-size: 3rem; 
+}
+
+#texto {
+  font-size: 1.1rem; 
+}
+
+.card-info {
+  background-color: var(--gris-claro);
+}
+
+
+
+.footer {
+  background-color: #cfeff6;
+  color: #000;
+}
+
+.footer a {
+  color: var(--negro) !important;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}
